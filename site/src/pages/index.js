@@ -286,8 +286,8 @@ const IndexPage = () => {
             }}
           >
             <div sx={{ textAlign: "left" }}>Country</div>
-            <div>Cases</div>
             <div>Deaths</div>
+            <div>Cases</div>
           </div>
           {countries &&
             countries.map((x, i) => (
@@ -299,14 +299,18 @@ const IndexPage = () => {
                   bg: i % 2 ? "#f3f3f3" : null,
                   px: 2,
                   py: 1,
+
+                  ":hover": {
+                    color: "primary",
+                  },
                 }}
               >
                 <div sx={{ textAlign: "left" }}>{x.name}</div>
                 <div>
-                  {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
+                  {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
                 </div>
                 <div>
-                  {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
+                  {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
                 </div>
               </div>
             ))}
