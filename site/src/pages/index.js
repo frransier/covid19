@@ -292,34 +292,35 @@ const IndexPage = () => {
             <div>Deaths</div>
             <div>Cases</div>
           </div>
-          {countries &&
-            countries.map((x, i) => (
-              <div
-                key={i}
-                sx={{
-                  display: "grid",
-                  gridTemplateColumns: "auto 35% 35%",
-                  textAlign: "right",
-                  bg: i % 2 ? "#f3f3f3" : null,
-                  px: 2,
-                  py: 1,
+          <div sx={{ pb: 4 }}>
+            {countries &&
+              countries.map((x, i) => (
+                <div
+                  key={i}
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: "auto 35% 35%",
+                    textAlign: "right",
+                    bg: i % 2 ? "#f3f3f3" : null,
+                    px: 2,
+                    py: 1,
 
-                  ":hover": {
-                    color: "primary",
-                  },
-                }}
-              >
-                <div sx={{ textAlign: "left" }}>{x.name}</div>
-                <div>
-                  {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
+                    ":hover": {
+                      color: "primary",
+                    },
+                  }}
+                >
+                  <div sx={{ textAlign: "left" }}>{x.name}</div>
+                  <div>
+                    {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
+                  </div>
+                  <div>
+                    {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
+                  </div>
                 </div>
-                <div>
-                  {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
-                </div>
-              </div>
-            ))}
+              ))}
+          </div>
         </div>
-        <div sx={{ mt: 3 }}>Science Oder Rehoboam Open Society</div>
       </div>
     </Layout>
   )
