@@ -244,7 +244,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Covid 19 Tracker" />
       <div style={{ width: "100%", height: "100vh" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyBO8H3ggKEXrZwUW9Hz7apfoiceAgAjIjE" }}
