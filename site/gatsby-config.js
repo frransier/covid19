@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Covid 19 tracker`,
-    description: `Tracking cases and deaths worldwide`,
+    title: `COVID-19 Worldwide Cases`,
+    description: `ECDC geographic distribution of COVID-19 cases worldwide`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

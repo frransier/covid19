@@ -54,9 +54,10 @@ const Header = ({ siteTitle }) => {
           href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide"
           sx={{ color: "primary", textDecoration: "none" }}
         >
-          Source: ECDC (updated daily)
+          Source: ECDC geographic distribution of COVID-19 cases worldwide
         </a>
       </h5>
+      <h6>last updated 2020-03-19 6PM CET</h6>
     </div>
   )
 }

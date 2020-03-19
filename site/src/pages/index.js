@@ -60,9 +60,6 @@ const IndexPage = () => {
 
   function createMapOptions(maps) {
     return {
-      // panControl: false,
-      // mapTypeControl: false,
-      // scrollwheel: false,
       styles: [
         {
           featureType: "water",
@@ -264,39 +261,57 @@ const IndexPage = () => {
         </GoogleMapReact>
         <div
           sx={{
-            display: "grid",
-            gridTemplateColumns: "auto 35% 35%",
-            borderBottom: "solid 1px",
-            borderBottomColor: "alternative",
-            textAlign: "right",
-            fontWeight: "bold",
+            width: ["100%", "90%"],
+            mt: 5,
+            display: "flex",
+            flexDirection: "column",
+            mx: "auto",
+            // alignItems: "center",
+            // justifyContent: "center",
+
+            // justifyItems: "center",
+
+            // justifyItems: "center",
           }}
         >
-          <div sx={{ textAlign: "left" }}>Country</div>
-          <div>Cases</div>
-
-          <div>Deaths</div>
+          <div
+            sx={{
+              display: "grid",
+              gridTemplateColumns: "auto 35% 35%",
+              borderBottom: "solid 1px",
+              borderBottomColor: "alternative",
+              textAlign: "right",
+              fontWeight: "bold",
+              p: 2,
+            }}
+          >
+            <div sx={{ textAlign: "left" }}>Country</div>
+            <div>Cases</div>
+            <div>Deaths</div>
+          </div>
+          {countries &&
+            countries.map((x, i) => (
+              <div
+                sx={{
+                  display: "grid",
+                  gridTemplateColumns: "auto 35% 35%",
+                  textAlign: "right",
+                  bg: i % 2 ? "#f3f3f3" : null,
+                  px: 2,
+                  py: 1,
+                }}
+              >
+                <div sx={{ textAlign: "left" }}>{x.name}</div>
+                <div>
+                  {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
+                </div>
+                <div>
+                  {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
+                </div>
+              </div>
+            ))}
         </div>
-        {countries &&
-          countries.map((x, i) => (
-            <div
-              sx={{
-                display: "grid",
-                gridTemplateColumns: "auto 35% 35%",
-                textAlign: "right",
-                bg: i % 2 ? "lightgrey" : null,
-              }}
-            >
-              <div sx={{ textAlign: "left" }}>{x.name}</div>
-              <div>
-                {formatMoney(x.cases)} (+{formatMoney(x.newCases)})
-              </div>
-              <div>
-                {formatMoney(x.deaths)} (+{formatMoney(x.newDeaths)})
-              </div>
-            </div>
-          ))}
-        <div sx={{ mt: 6 }}>Copyright Open Society Foundation (Not Soros)</div>
+        <div sx={{ mt: 3 }}>Science Oder Rehoboam Open Society</div>
       </div>
     </Layout>
   )
