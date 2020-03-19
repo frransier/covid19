@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 import GoogleMapReact from "google-map-react"
 import Layout from "../components/layout"
@@ -11,7 +11,7 @@ import "tippy.js/dist/tippy.css"
 const sanityClient = require("@sanity/client")
 const client = sanityClient({
   projectId: "uazrsdp8",
-  dataset: "second",
+  dataset: "first",
   useCdn: false,
 })
 
@@ -21,7 +21,7 @@ const Marker = ({ country }) => {
   return (
     <Tippy
       content={
-        <>
+        <div>
           <div>{country.name}</div>
           <div sx={{}}>
             <span>Cases: {country.cases} </span>
@@ -31,7 +31,7 @@ const Marker = ({ country }) => {
             <span>Deaths: {country.deaths} </span>
             <span sx={{ color: "primary" }}>({country.newDeaths} new)</span>
           </div>
-        </>
+        </div>
       }
     >
       <div
@@ -54,12 +54,14 @@ const IndexPage = () => {
     const query = `*[_type == 'country'] | order(cases desc)`
     client.fetch(query).then(x => setCountries(x))
   }, [])
-  useEffect(() => {
-    countries && console.log(countries)
-  }, [countries])
+  // useEffect(() => {
+  //   countries && console.log(countries)
+  // }, [countries])
 
   function createMapOptions(maps) {
     return {
+      minZoom: 1,
+      maxZoom: 5,
       styles: [
         {
           featureType: "water",
@@ -242,7 +244,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Covid 19 Tracker" />
-      <div style={{ width: "100%", height: "100vh" }}>
+      <div style={{ width: "100%", height: "100vh", fontDisplay: "swap" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyBO8H3ggKEXrZwUW9Hz7apfoiceAgAjIjE" }}
           defaultCenter={{ lat: 49.8175, lng: 15.473 }}
@@ -250,8 +252,9 @@ const IndexPage = () => {
           options={createMapOptions}
         >
           {countries &&
-            countries.map(x => (
+            countries.map((x, i) => (
               <Marker
+                key={i}
                 style={{ backgroundColor: "black" }}
                 lat={x.lat}
                 lng={x.lng}
@@ -292,6 +295,7 @@ const IndexPage = () => {
           {countries &&
             countries.map((x, i) => (
               <div
+                key={i}
                 sx={{
                   display: "grid",
                   gridTemplateColumns: "auto 35% 35%",

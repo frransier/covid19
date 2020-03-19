@@ -2,7 +2,6 @@
 import { jsx } from "theme-ui"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
 
 const Header = ({ siteTitle }) => {
   const date = new Date()
@@ -50,6 +49,7 @@ const Header = ({ siteTitle }) => {
       </h4>
       <h5>
         <a
+          rel="noopener noreferrer"
           target="_blank"
           href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide"
           sx={{ color: "primary", textDecoration: "none" }}

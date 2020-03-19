@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description
   const metaTitle = title || site.siteMetadata.title
   const metaImage = image || `https://covidtracker.netlify.com` + logo
-  console.log(metaImage)
+  // console.log(metaImage)
 
   return (
     <Helmet

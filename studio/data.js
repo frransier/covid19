@@ -26,7 +26,7 @@ const test = data
       lat: geo && geo.Latitude,
       lng: geo && geo.Longitude,
     };
-    if (geo && country.cases > 0) return country;
+    if (geo && country.cases > 20) return country;
   })
   .filter(Boolean);
 const unique = _.uniqBy(test, "name");
