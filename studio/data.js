@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = JSON.parse(fs.readFileSync("covid031920.json"));
+const data = JSON.parse(fs.readFileSync("covidtracker0320.json"));
 const iso = JSON.parse(fs.readFileSync("iso.json"));
 const _ = require("lodash");
 

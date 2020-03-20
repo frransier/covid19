@@ -44,9 +44,6 @@ const Header = ({ siteTitle }) => {
           COVID-19 Worldwide Cases
         </Link>
       </h1>
-      <h4>
-        {weekday} {month} {day}
-      </h4>
       <h5>
         <a
           rel="noopener noreferrer"
@@ -57,7 +54,7 @@ const Header = ({ siteTitle }) => {
           Source: ECDC geographic distribution of COVID-19 cases worldwide
         </a>
       </h5>
-      <h6>last updated 2020-03-19 6PM CET</h6>
+      <h6>Updated 2020-03-20 4PM CET</h6>
     </div>
   )
 }
