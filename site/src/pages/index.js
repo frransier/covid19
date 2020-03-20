@@ -306,7 +306,7 @@ const IndexPage = () => {
                     py: 1,
 
                     ":hover": {
-                      color: "primary",
+                      bg: "lightgrey",
                     },
                   }}
                 >
