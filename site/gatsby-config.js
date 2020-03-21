@@ -19,13 +19,13 @@ module.exports = {
         head: false,
       },
     },
-    // {
-    //   resolve: "gatsby-source-sanity",
-    //   options: {
-    //     projectId: "uazrsdp8",
-    //     dataset: "production",
-    //   },
-    // },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "uazrsdp8",
+        dataset: "first",
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

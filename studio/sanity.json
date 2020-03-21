@@ -5,7 +5,7 @@
   },
   "api": {
     "projectId": "uazrsdp8",
-    "dataset": "first"
+    "dataset": "second"
   },
   "plugins": [
     "@sanity/base",

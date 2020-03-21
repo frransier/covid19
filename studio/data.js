@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = JSON.parse(fs.readFileSync("covidtracker0320.json"));
+const data = JSON.parse(fs.readFileSync("covidtracker0321.json"));
 const iso = JSON.parse(fs.readFileSync("iso.json"));
 const _ = require("lodash");
 
@@ -18,6 +18,7 @@ const test = data
     const geo = iso.find(x => x.ISO === grouped[0].GeoId);
     const country = {
       _type: "country",
+      _id: geo && `1${Math.round(geo.Latitude)}${Math.round(geo.Longitude)}`,
       name: name,
       deaths: deaths,
       newDeaths: deaths - (deaths - grouped[0].Deaths),
