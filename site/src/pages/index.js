@@ -8,10 +8,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tippy from "@tippyjs/react"
 import "tippy.js/dist/tippy.css"
+import { graphql } from "gatsby"
 const sanityClient = require("@sanity/client")
 const client = sanityClient({
   projectId: "uazrsdp8",
-  dataset: "second",
+  dataset: "first",
   useCdn: false,
 })
 
@@ -327,6 +328,10 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+// export const query = graphql`
+
+// `
 
 function formatMoney(amount, decimalCount = 0, decimal = ",", thousands = " ") {
   try {
