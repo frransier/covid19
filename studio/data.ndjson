@@ -1,106 +1,114 @@
-{"_type":"country","_id":"13365","name":"Afghanistan","deaths":0,"newDeaths":0,"cases":24,"newCases":0,"lat":33,"lng":65}
-{"_type":"country","_id":"14120","name":"Albania","deaths":2,"newDeaths":0,"cases":76,"newCases":6,"lat":41,"lng":20}
-{"_type":"country","_id":"1283","name":"Algeria","deaths":10,"newDeaths":0,"cases":94,"newCases":0,"lat":28,"lng":3}
-{"_type":"country","_id":"1432","name":"Andorra","deaths":0,"newDeaths":0,"cases":88,"newCases":13,"lat":42.5,"lng":1.5}
-{"_type":"country","_id":"1-34-64","name":"Argentina","deaths":4,"newDeaths":1,"cases":225,"newCases":67,"lat":-34,"lng":-64}
-{"_type":"country","_id":"14045","name":"Armenia","deaths":0,"newDeaths":0,"cases":160,"newCases":24,"lat":40,"lng":45}
-{"_type":"country","_id":"1-27133","name":"Australia","deaths":7,"newDeaths":0,"cases":1098,"newCases":224,"lat":-27,"lng":133}
-{"_type":"country","_id":"14713","name":"Austria","deaths":8,"newDeaths":2,"cases":3024,"newCases":375,"lat":47.33,"lng":13.33}
-{"_type":"country","_id":"14148","name":"Azerbaijan","deaths":1,"newDeaths":0,"cases":53,"newCases":9,"lat":40.5,"lng":47.5}
-{"_type":"country","_id":"12490","name":"Bangladesh","deaths":2,"newDeaths":2,"cases":24,"newCases":7,"lat":24,"lng":90}
-{"_type":"country","_id":"15328","name":"Belarus","deaths":0,"newDeaths":0,"cases":76,"newCases":19,"lat":53,"lng":28}
-{"_type":"country","_id":"1514","name":"Belgium","deaths":67,"newDeaths":30,"cases":2815,"newCases":558,"lat":50.83,"lng":4}
-{"_type":"country","_id":"14418","name":"Bosnia and_Herzegovina","deaths":1,"newDeaths":1,"cases":92,"newCases":48,"lat":44,"lng":18}
-{"_type":"country","_id":"1-10-55","name":"Brazil","deaths":18,"newDeaths":7,"cases":1128,"newCases":224,"lat":-10,"lng":-55}
-{"_type":"country","_id":"15115","name":"Brunei Darussalam","deaths":0,"newDeaths":0,"cases":83,"newCases":5,"lat":4.5,"lng":114.67}
-{"_type":"country","_id":"14325","name":"Bulgaria","deaths":3,"newDeaths":0,"cases":163,"newCases":36,"lat":43,"lng":25}
-{"_type":"country","_id":"113-2","name":"Burkina Faso","deaths":3,"newDeaths":2,"cases":64,"newCases":24,"lat":13,"lng":-2}
-{"_type":"country","_id":"113105","name":"Cambodia","deaths":0,"newDeaths":0,"cases":51,"newCases":4,"lat":13,"lng":105}
+{"_type":"country","_id":"13365","name":"Afghanistan","deaths":0,"newDeaths":0,"cases":34,"newCases":10,"lat":33,"lng":65}
+{"_type":"country","_id":"14120","name":"Albania","deaths":2,"newDeaths":0,"cases":89,"newCases":13,"lat":41,"lng":20}
+{"_type":"country","_id":"1432","name":"Andorra","deaths":0,"newDeaths":0,"cases":113,"newCases":25,"lat":42.5,"lng":1.5}
+{"_type":"country","_id":"1-34-64","name":"Argentina","deaths":4,"newDeaths":0,"cases":266,"newCases":41,"lat":-34,"lng":-64}
+{"_type":"country","_id":"14045","name":"Armenia","deaths":0,"newDeaths":0,"cases":190,"newCases":30,"lat":40,"lng":45}
+{"_type":"country","_id":"1283","name":"Algeria","deaths":15,"newDeaths":5,"cases":102,"newCases":8,"lat":28,"lng":3}
+{"_type":"country","_id":"1-27133","name":"Australia","deaths":7,"newDeaths":0,"cases":1709,"newCases":611,"lat":-27,"lng":133}
+{"_type":"country","_id":"14713","name":"Austria","deaths":16,"newDeaths":8,"cases":3631,"newCases":607,"lat":47.33,"lng":13.33}
+{"_type":"country","_id":"14148","name":"Azerbaijan","deaths":1,"newDeaths":0,"cases":65,"newCases":12,"lat":40.5,"lng":47.5}
+{"_type":"country","_id":"126511","name":"Bahrain","deaths":2,"newDeaths":1,"cases":334,"newCases":28,"lat":26,"lng":50.55}
+{"_type":"country","_id":"12490","name":"Bangladesh","deaths":3,"newDeaths":1,"cases":27,"newCases":3,"lat":24,"lng":90}
+{"_type":"country","_id":"15328","name":"Belarus","deaths":0,"newDeaths":0,"cases":76,"newCases":0,"lat":53,"lng":28}
+{"_type":"country","_id":"1514","name":"Belgium","deaths":75,"newDeaths":8,"cases":3401,"newCases":586,"lat":50.83,"lng":4}
+{"_type":"country","_id":"1-17-65","name":"Bolivia","deaths":0,"newDeaths":0,"cases":27,"newCases":7,"lat":-17,"lng":-65}
+{"_type":"country","_id":"14418","name":"Bosnia and_Herzegovina","deaths":1,"newDeaths":0,"cases":125,"newCases":33,"lat":44,"lng":18}
+{"_type":"country","_id":"1-10-55","name":"Brazil","deaths":25,"newDeaths":7,"cases":1546,"newCases":418,"lat":-10,"lng":-55}
+{"_type":"country","_id":"15115","name":"Brunei Darussalam","deaths":0,"newDeaths":0,"cases":88,"newCases":5,"lat":4.5,"lng":114.67}
+{"_type":"country","_id":"14325","name":"Bulgaria","deaths":3,"newDeaths":0,"cases":185,"newCases":22,"lat":43,"lng":25}
+{"_type":"country","_id":"113-2","name":"Burkina Faso","deaths":3,"newDeaths":0,"cases":64,"newCases":0,"lat":13,"lng":-2}
+{"_type":"country","_id":"113105","name":"Cambodia","deaths":0,"newDeaths":0,"cases":86,"newCases":35,"lat":13,"lng":105}
 {"_type":"country","_id":"1612","name":"Cameroon","deaths":0,"newDeaths":0,"cases":27,"newCases":0,"lat":6,"lng":12}
-{"_type":"country","_id":"160-95","name":"Canada","deaths":13,"newDeaths":1,"cases":1231,"newCases":260,"lat":60,"lng":-95}
-{"_type":"country","_id":"1-30-71","name":"Chile","deaths":0,"newDeaths":0,"cases":537,"newCases":103,"lat":-30,"lng":-71}
-{"_type":"country","_id":"135105","name":"China","deaths":3267,"newDeaths":6,"cases":81499,"newCases":83,"lat":35,"lng":105}
-{"_type":"country","_id":"14-72","name":"Colombia","deaths":1,"newDeaths":1,"cases":210,"newCases":52,"lat":4,"lng":-72}
-{"_type":"country","_id":"110-84","name":"Costa Rica","deaths":2,"newDeaths":0,"cases":117,"newCases":4,"lat":10,"lng":-84}
-{"_type":"country","_id":"14516","name":"Croatia","deaths":1,"newDeaths":0,"cases":206,"newCases":80,"lat":45.17,"lng":15.5}
-{"_type":"country","_id":"122-80","name":"Cuba","deaths":1,"newDeaths":0,"cases":25,"newCases":4,"lat":21.5,"lng":-80}
-{"_type":"country","_id":"13533","name":"Cyprus","deaths":0,"newDeaths":0,"cases":84,"newCases":17,"lat":35,"lng":33}
-{"_type":"country","_id":"15016","name":"Czech Republic","deaths":0,"newDeaths":0,"cases":995,"newCases":91,"lat":49.75,"lng":15.5}
-{"_type":"country","_id":"1025","name":"Democratic Republic_of_the_Congo","deaths":1,"newDeaths":1,"cases":23,"newCases":9,"lat":0,"lng":25}
-{"_type":"country","_id":"15610","name":"Denmark","deaths":13,"newDeaths":4,"cases":1326,"newCases":71,"lat":56,"lng":10}
-{"_type":"country","_id":"119-71","name":"Dominican Republic","deaths":3,"newDeaths":1,"cases":112,"newCases":78,"lat":19,"lng":-70.67}
-{"_type":"country","_id":"1-2-77","name":"Ecuador","deaths":7,"newDeaths":0,"cases":532,"newCases":106,"lat":-2,"lng":-77.5}
-{"_type":"country","_id":"12730","name":"Egypt","deaths":8,"newDeaths":1,"cases":285,"newCases":29,"lat":27,"lng":30}
-{"_type":"country","_id":"15926","name":"Estonia","deaths":0,"newDeaths":0,"cases":306,"newCases":23,"lat":59,"lng":26}
-{"_type":"country","_id":"162-7","name":"Faroe Islands","deaths":0,"newDeaths":0,"cases":92,"newCases":12,"lat":62,"lng":-7}
-{"_type":"country","_id":"16426","name":"Finland","deaths":1,"newDeaths":1,"cases":521,"newCases":71,"lat":64,"lng":26}
-{"_type":"country","_id":"1462","name":"France","deaths":562,"newDeaths":112,"cases":14459,"newCases":1847,"lat":46,"lng":2}
-{"_type":"country","_id":"14244","name":"Georgia","deaths":0,"newDeaths":0,"cases":49,"newCases":6,"lat":42,"lng":43.5}
-{"_type":"country","_id":"1519","name":"Germany","deaths":67,"newDeaths":22,"cases":21463,"newCases":3276,"lat":51,"lng":9}
-{"_type":"country","_id":"18-2","name":"Ghana","deaths":1,"newDeaths":1,"cases":21,"newCases":5,"lat":8,"lng":-2}
-{"_type":"country","_id":"115-86","name":"Honduras","deaths":0,"newDeaths":0,"cases":26,"newCases":2,"lat":15,"lng":-86.5}
-{"_type":"country","_id":"14720","name":"Hungary","deaths":4,"newDeaths":0,"cases":131,"newCases":46,"lat":47,"lng":20}
-{"_type":"country","_id":"165-18","name":"Iceland","deaths":1,"newDeaths":0,"cases":473,"newCases":64,"lat":65,"lng":-18}
-{"_type":"country","_id":"12077","name":"India","deaths":4,"newDeaths":0,"cases":320,"newCases":89,"lat":20,"lng":77}
-{"_type":"country","_id":"1-5120","name":"Indonesia","deaths":38,"newDeaths":13,"cases":450,"newCases":141,"lat":-5,"lng":120}
-{"_type":"country","_id":"13253","name":"Iran","deaths":1556,"newDeaths":123,"cases":20610,"newCases":966,"lat":32,"lng":53}
-{"_type":"country","_id":"13344","name":"Iraq","deaths":17,"newDeaths":3,"cases":214,"newCases":21,"lat":33,"lng":44}
-{"_type":"country","_id":"153-8","name":"Ireland","deaths":3,"newDeaths":0,"cases":785,"newCases":102,"lat":53,"lng":-8}
-{"_type":"country","_id":"13235","name":"Israel","deaths":1,"newDeaths":0,"cases":883,"newCases":171,"lat":31.5,"lng":34.75}
-{"_type":"country","_id":"14313","name":"Italy","deaths":4827,"newDeaths":795,"cases":53578,"newCases":6557,"lat":42.83,"lng":12.83}
-{"_type":"country","_id":"136138","name":"Japan","deaths":36,"newDeaths":1,"cases":1046,"newCases":39,"lat":36,"lng":138}
-{"_type":"country","_id":"13136","name":"Jordan","deaths":0,"newDeaths":0,"cases":84,"newCases":15,"lat":31,"lng":36}
-{"_type":"country","_id":"14868","name":"Kazakhstan","deaths":0,"newDeaths":0,"cases":56,"newCases":3,"lat":48,"lng":68}
-{"_type":"country","_id":"12948","name":"Kuwait","deaths":0,"newDeaths":0,"cases":176,"newCases":17,"lat":29.34,"lng":47.66}
-{"_type":"country","_id":"15725","name":"Latvia","deaths":0,"newDeaths":0,"cases":124,"newCases":13,"lat":57,"lng":25}
-{"_type":"country","_id":"13436","name":"Lebanon","deaths":4,"newDeaths":0,"cases":230,"newCases":67,"lat":33.83,"lng":35.83}
-{"_type":"country","_id":"14710","name":"Liechtenstein","deaths":0,"newDeaths":0,"cases":36,"newCases":2,"lat":47.17,"lng":9.53}
-{"_type":"country","_id":"15624","name":"Lithuania","deaths":1,"newDeaths":0,"cases":105,"newCases":36,"lat":56,"lng":24}
-{"_type":"country","_id":"1506","name":"Luxembourg","deaths":8,"newDeaths":3,"cases":670,"newCases":186,"lat":49.75,"lng":6.17}
-{"_type":"country","_id":"13113","name":"Malaysia","deaths":4,"newDeaths":2,"cases":1183,"newCases":153,"lat":2.5,"lng":112.5}
-{"_type":"country","_id":"13615","name":"Malta","deaths":0,"newDeaths":0,"cases":73,"newCases":9,"lat":35.83,"lng":14.58}
-{"_type":"country","_id":"123-102","name":"Mexico","deaths":2,"newDeaths":0,"cases":251,"newCases":48,"lat":23,"lng":-102}
-{"_type":"country","_id":"14729","name":"Moldova","deaths":1,"newDeaths":0,"cases":80,"newCases":14,"lat":47,"lng":29}
-{"_type":"country","_id":"132-5","name":"Morocco","deaths":3,"newDeaths":0,"cases":96,"newCases":10,"lat":32,"lng":-5}
-{"_type":"country","_id":"1536","name":"Netherlands","deaths":136,"newDeaths":30,"cases":3631,"newCases":637,"lat":52.5,"lng":5.75}
-{"_type":"country","_id":"1-41174","name":"New Zealand","deaths":0,"newDeaths":0,"cases":66,"newCases":13,"lat":-41,"lng":174}
-{"_type":"country","_id":"1108","name":"Nigeria","deaths":0,"newDeaths":0,"cases":22,"newCases":10,"lat":10,"lng":8}
-{"_type":"country","_id":"14222","name":"North Macedonia","deaths":0,"newDeaths":0,"cases":85,"newCases":15,"lat":41.83,"lng":22}
-{"_type":"country","_id":"16210","name":"Norway","deaths":7,"newDeaths":0,"cases":1926,"newCases":184,"lat":62,"lng":10}
-{"_type":"country","_id":"12157","name":"Oman","deaths":0,"newDeaths":0,"cases":52,"newCases":4,"lat":21,"lng":57}
-{"_type":"country","_id":"13070","name":"Pakistan","deaths":3,"newDeaths":0,"cases":646,"newCases":151,"lat":30,"lng":70}
-{"_type":"country","_id":"19-80","name":"Panama","deaths":3,"newDeaths":2,"cases":245,"newCases":45,"lat":9,"lng":-80}
-{"_type":"country","_id":"1-23-58","name":"Paraguay","deaths":1,"newDeaths":0,"cases":22,"newCases":4,"lat":-23,"lng":-58}
-{"_type":"country","_id":"1-10-76","name":"Peru","deaths":5,"newDeaths":2,"cases":318,"newCases":55,"lat":-10,"lng":-76}
-{"_type":"country","_id":"113122","name":"Philippines","deaths":25,"newDeaths":7,"cases":380,"newCases":150,"lat":13,"lng":122}
-{"_type":"country","_id":"15220","name":"Poland","deaths":5,"newDeaths":0,"cases":536,"newCases":111,"lat":52,"lng":20}
-{"_type":"country","_id":"140-8","name":"Portugal","deaths":12,"newDeaths":6,"cases":1280,"newCases":260,"lat":39.5,"lng":-8}
-{"_type":"country","_id":"12651","name":"Qatar","deaths":0,"newDeaths":0,"cases":481,"newCases":11,"lat":25.5,"lng":51.25}
-{"_type":"country","_id":"14625","name":"Romania","deaths":0,"newDeaths":0,"cases":367,"newCases":59,"lat":46,"lng":25}
-{"_type":"country","_id":"160100","name":"Russia","deaths":0,"newDeaths":0,"cases":306,"newCases":53,"lat":60,"lng":100}
-{"_type":"country","_id":"14412","name":"San Marino","deaths":20,"newDeaths":6,"cases":151,"newCases":0,"lat":43.77,"lng":12.42}
-{"_type":"country","_id":"12545","name":"Saudi Arabia","deaths":0,"newDeaths":0,"cases":392,"newCases":118,"lat":25,"lng":45}
-{"_type":"country","_id":"114-14","name":"Senegal","deaths":0,"newDeaths":0,"cases":56,"newCases":9,"lat":14,"lng":-14}
-{"_type":"country","_id":"14421","name":"Serbia","deaths":1,"newDeaths":0,"cases":149,"newCases":14,"lat":44,"lng":21}
-{"_type":"country","_id":"11104","name":"Singapore","deaths":2,"newDeaths":2,"cases":432,"newCases":47,"lat":1.37,"lng":103.8}
-{"_type":"country","_id":"14920","name":"Slovakia","deaths":0,"newDeaths":0,"cases":178,"newCases":41,"lat":48.67,"lng":19.5}
-{"_type":"country","_id":"14615","name":"Slovenia","deaths":1,"newDeaths":0,"cases":383,"newCases":42,"lat":46,"lng":15}
-{"_type":"country","_id":"1-2924","name":"South Africa","deaths":0,"newDeaths":0,"cases":240,"newCases":35,"lat":-29,"lng":24}
-{"_type":"country","_id":"137128","name":"South Korea","deaths":104,"newDeaths":1,"cases":8897,"newCases":98,"lat":37,"lng":127.5}
-{"_type":"country","_id":"140-4","name":"Spain","deaths":1326,"newDeaths":324,"cases":24926,"newCases":4946,"lat":40,"lng":-4}
-{"_type":"country","_id":"1781","name":"Sri Lanka","deaths":0,"newDeaths":0,"cases":78,"newCases":12,"lat":7,"lng":81}
-{"_type":"country","_id":"16215","name":"Sweden","deaths":20,"newDeaths":4,"cases":1746,"newCases":123,"lat":62,"lng":15}
-{"_type":"country","_id":"1478","name":"Switzerland","deaths":56,"newDeaths":13,"cases":6077,"newCases":1237,"lat":47,"lng":8}
-{"_type":"country","_id":"124121","name":"Taiwan","deaths":2,"newDeaths":0,"cases":153,"newCases":18,"lat":23.5,"lng":121}
-{"_type":"country","_id":"115100","name":"Thailand","deaths":1,"newDeaths":0,"cases":599,"newCases":233,"lat":15,"lng":100}
-{"_type":"country","_id":"111-61","name":"Trinidad and_Tobago","deaths":0,"newDeaths":0,"cases":49,"newCases":40,"lat":11,"lng":-61}
-{"_type":"country","_id":"1349","name":"Tunisia","deaths":1,"newDeaths":0,"cases":60,"newCases":6,"lat":34,"lng":9}
-{"_type":"country","_id":"13935","name":"Turkey","deaths":21,"newDeaths":12,"cases":947,"newCases":277,"lat":39,"lng":35}
-{"_type":"country","_id":"14932","name":"Ukraine","deaths":3,"newDeaths":0,"cases":41,"newCases":15,"lat":49,"lng":32}
-{"_type":"country","_id":"12454","name":"United Arab_Emirates","deaths":2,"newDeaths":2,"cases":153,"newCases":13,"lat":24,"lng":54}
-{"_type":"country","_id":"154-2","name":"United Kingdom","deaths":233,"newDeaths":56,"cases":5018,"newCases":1035,"lat":54,"lng":-2}
-{"_type":"country","_id":"138-97","name":"United States_of_America","deaths":340,"newDeaths":80,"cases":26747,"newCases":7123,"lat":38,"lng":-97}
-{"_type":"country","_id":"1-33-56","name":"Uruguay","deaths":0,"newDeaths":0,"cases":135,"newCases":25,"lat":-33,"lng":-56}
-{"_type":"country","_id":"14164","name":"Uzbekistan","deaths":0,"newDeaths":0,"cases":33,"newCases":0,"lat":41,"lng":64}
+{"_type":"country","_id":"160-95","name":"Canada","deaths":18,"newDeaths":5,"cases":1430,"newCases":199,"lat":60,"lng":-95}
+{"_type":"country","_id":"1-30-71","name":"Chile","deaths":1,"newDeaths":1,"cases":632,"newCases":95,"lat":-30,"lng":-71}
+{"_type":"country","_id":"135105","name":"China","deaths":3276,"newDeaths":9,"cases":81649,"newCases":150,"lat":35,"lng":105}
+{"_type":"country","_id":"14-72","name":"Colombia","deaths":2,"newDeaths":1,"cases":235,"newCases":25,"lat":4,"lng":-72}
+{"_type":"country","_id":"110-84","name":"Costa Rica","deaths":2,"newDeaths":0,"cases":134,"newCases":17,"lat":10,"lng":-84}
+{"_type":"country","_id":"18-5","name":"Cote dIvoire","deaths":0,"newDeaths":0,"cases":25,"newCases":8,"lat":8,"lng":-5}
+{"_type":"country","_id":"14516","name":"Croatia","deaths":1,"newDeaths":0,"cases":235,"newCases":29,"lat":45.17,"lng":15.5}
+{"_type":"country","_id":"122-80","name":"Cuba","deaths":1,"newDeaths":0,"cases":35,"newCases":10,"lat":21.5,"lng":-80}
+{"_type":"country","_id":"13533","name":"Cyprus","deaths":0,"newDeaths":0,"cases":95,"newCases":11,"lat":35,"lng":33}
+{"_type":"country","_id":"15016","name":"Czech Republic","deaths":1,"newDeaths":1,"cases":1165,"newCases":170,"lat":49.75,"lng":15.5}
+{"_type":"country","_id":"1025","name":"Democratic Republic_of_the_Congo","deaths":2,"newDeaths":1,"cases":30,"newCases":7,"lat":0,"lng":25}
+{"_type":"country","_id":"15610","name":"Denmark","deaths":13,"newDeaths":0,"cases":1395,"newCases":69,"lat":56,"lng":10}
+{"_type":"country","_id":"119-71","name":"Dominican Republic","deaths":3,"newDeaths":0,"cases":202,"newCases":90,"lat":19,"lng":-70.67}
+{"_type":"country","_id":"1-2-77","name":"Ecuador","deaths":14,"newDeaths":7,"cases":789,"newCases":257,"lat":-2,"lng":-77.5}
+{"_type":"country","_id":"12730","name":"Egypt","deaths":10,"newDeaths":2,"cases":294,"newCases":9,"lat":27,"lng":30}
+{"_type":"country","_id":"15926","name":"Estonia","deaths":0,"newDeaths":0,"cases":326,"newCases":20,"lat":59,"lng":26}
+{"_type":"country","_id":"162-7","name":"Faroe Islands","deaths":0,"newDeaths":0,"cases":115,"newCases":23,"lat":62,"lng":-7}
+{"_type":"country","_id":"16426","name":"Finland","deaths":1,"newDeaths":0,"cases":626,"newCases":105,"lat":64,"lng":26}
+{"_type":"country","_id":"1462","name":"France","deaths":674,"newDeaths":112,"cases":16018,"newCases":1559,"lat":46,"lng":2}
+{"_type":"country","_id":"14244","name":"Georgia","deaths":0,"newDeaths":0,"cases":54,"newCases":5,"lat":42,"lng":43.5}
+{"_type":"country","_id":"1519","name":"Germany","deaths":94,"newDeaths":27,"cases":24774,"newCases":3311,"lat":51,"lng":9}
+{"_type":"country","_id":"18-2","name":"Ghana","deaths":1,"newDeaths":0,"cases":24,"newCases":3,"lat":8,"lng":-2}
+{"_type":"country","_id":"113145","name":"Guam","deaths":1,"newDeaths":0,"cases":27,"newCases":12,"lat":13.47,"lng":144.78}
+{"_type":"country","_id":"115-86","name":"Honduras","deaths":0,"newDeaths":0,"cases":27,"newCases":1,"lat":15,"lng":-86.5}
+{"_type":"country","_id":"14720","name":"Hungary","deaths":7,"newDeaths":3,"cases":167,"newCases":36,"lat":47,"lng":20}
+{"_type":"country","_id":"165-18","name":"Iceland","deaths":1,"newDeaths":0,"cases":568,"newCases":95,"lat":65,"lng":-18}
+{"_type":"country","_id":"12077","name":"India","deaths":7,"newDeaths":3,"cases":439,"newCases":119,"lat":20,"lng":77}
+{"_type":"country","_id":"1-5120","name":"Indonesia","deaths":48,"newDeaths":10,"cases":514,"newCases":64,"lat":-5,"lng":120}
+{"_type":"country","_id":"13253","name":"Iran","deaths":1685,"newDeaths":129,"cases":21638,"newCases":1028,"lat":32,"lng":53}
+{"_type":"country","_id":"13344","name":"Iraq","deaths":20,"newDeaths":3,"cases":233,"newCases":19,"lat":33,"lng":44}
+{"_type":"country","_id":"153-8","name":"Ireland","deaths":4,"newDeaths":1,"cases":906,"newCases":121,"lat":53,"lng":-8}
+{"_type":"country","_id":"13235","name":"Israel","deaths":1,"newDeaths":0,"cases":1071,"newCases":188,"lat":31.5,"lng":34.75}
+{"_type":"country","_id":"14313","name":"Italy","deaths":5476,"newDeaths":649,"cases":59138,"newCases":5560,"lat":42.83,"lng":12.83}
+{"_type":"country","_id":"136138","name":"Japan","deaths":41,"newDeaths":5,"cases":1089,"newCases":43,"lat":36,"lng":138}
+{"_type":"country","_id":"13136","name":"Jordan","deaths":0,"newDeaths":0,"cases":99,"newCases":15,"lat":31,"lng":36}
+{"_type":"country","_id":"14868","name":"Kazakhstan","deaths":0,"newDeaths":0,"cases":60,"newCases":4,"lat":48,"lng":68}
+{"_type":"country","_id":"12948","name":"Kuwait","deaths":0,"newDeaths":0,"cases":188,"newCases":12,"lat":29.34,"lng":47.66}
+{"_type":"country","_id":"15725","name":"Latvia","deaths":0,"newDeaths":0,"cases":139,"newCases":15,"lat":57,"lng":25}
+{"_type":"country","_id":"13436","name":"Lebanon","deaths":4,"newDeaths":0,"cases":248,"newCases":18,"lat":33.83,"lng":35.83}
+{"_type":"country","_id":"14710","name":"Liechtenstein","deaths":0,"newDeaths":0,"cases":46,"newCases":10,"lat":47.17,"lng":9.53}
+{"_type":"country","_id":"15624","name":"Lithuania","deaths":1,"newDeaths":0,"cases":143,"newCases":38,"lat":56,"lng":24}
+{"_type":"country","_id":"1506","name":"Luxembourg","deaths":8,"newDeaths":0,"cases":798,"newCases":128,"lat":49.75,"lng":6.17}
+{"_type":"country","_id":"13113","name":"Malaysia","deaths":10,"newDeaths":6,"cases":1306,"newCases":123,"lat":2.5,"lng":112.5}
+{"_type":"country","_id":"13615","name":"Malta","deaths":0,"newDeaths":0,"cases":90,"newCases":17,"lat":35.83,"lng":14.58}
+{"_type":"country","_id":"1-2058","name":"Mauritius","deaths":2,"newDeaths":1,"cases":28,"newCases":14,"lat":-20.28,"lng":57.55}
+{"_type":"country","_id":"123-102","name":"Mexico","deaths":2,"newDeaths":0,"cases":316,"newCases":65,"lat":23,"lng":-102}
+{"_type":"country","_id":"14729","name":"Moldova","deaths":1,"newDeaths":0,"cases":94,"newCases":14,"lat":47,"lng":29}
+{"_type":"country","_id":"1447","name":"Monaco","deaths":0,"newDeaths":0,"cases":23,"newCases":5,"lat":43.73,"lng":7.4}
+{"_type":"country","_id":"14219","name":"Montenegro","deaths":0,"newDeaths":0,"cases":21,"newCases":7,"lat":42,"lng":19}
+{"_type":"country","_id":"132-5","name":"Morocco","deaths":4,"newDeaths":1,"cases":115,"newCases":19,"lat":32,"lng":-5}
+{"_type":"country","_id":"1536","name":"Netherlands","deaths":179,"newDeaths":43,"cases":4204,"newCases":573,"lat":52.5,"lng":5.75}
+{"_type":"country","_id":"1-41174","name":"New Zealand","deaths":0,"newDeaths":0,"cases":102,"newCases":36,"lat":-41,"lng":174}
+{"_type":"country","_id":"1108","name":"Nigeria","deaths":0,"newDeaths":0,"cases":30,"newCases":8,"lat":10,"lng":8}
+{"_type":"country","_id":"14222","name":"North Macedonia","deaths":1,"newDeaths":1,"cases":114,"newCases":29,"lat":41.83,"lng":22}
+{"_type":"country","_id":"16210","name":"Norway","deaths":7,"newDeaths":0,"cases":2132,"newCases":206,"lat":62,"lng":10}
+{"_type":"country","_id":"12157","name":"Oman","deaths":0,"newDeaths":0,"cases":55,"newCases":3,"lat":21,"lng":57}
+{"_type":"country","_id":"13070","name":"Pakistan","deaths":5,"newDeaths":2,"cases":784,"newCases":138,"lat":30,"lng":70}
+{"_type":"country","_id":"132354","name":"Palestine","deaths":0,"newDeaths":0,"cases":59,"newCases":7,"lat":32,"lng":35.25}
+{"_type":"country","_id":"19-80","name":"Panama","deaths":3,"newDeaths":0,"cases":313,"newCases":68,"lat":9,"lng":-80}
+{"_type":"country","_id":"1-23-58","name":"Paraguay","deaths":1,"newDeaths":0,"cases":22,"newCases":0,"lat":-23,"lng":-58}
+{"_type":"country","_id":"1-10-76","name":"Peru","deaths":5,"newDeaths":0,"cases":363,"newCases":45,"lat":-10,"lng":-76}
+{"_type":"country","_id":"113122","name":"Philippines","deaths":25,"newDeaths":0,"cases":380,"newCases":0,"lat":13,"lng":122}
+{"_type":"country","_id":"15220","name":"Poland","deaths":7,"newDeaths":2,"cases":634,"newCases":98,"lat":52,"lng":20}
+{"_type":"country","_id":"140-8","name":"Portugal","deaths":14,"newDeaths":2,"cases":1600,"newCases":320,"lat":39.5,"lng":-8}
+{"_type":"country","_id":"12651","name":"Qatar","deaths":0,"newDeaths":0,"cases":494,"newCases":13,"lat":25.5,"lng":51.25}
+{"_type":"country","_id":"14625","name":"Romania","deaths":2,"newDeaths":2,"cases":433,"newCases":66,"lat":46,"lng":25}
+{"_type":"country","_id":"160100","name":"Russia","deaths":0,"newDeaths":0,"cases":438,"newCases":132,"lat":60,"lng":100}
+{"_type":"country","_id":"14412","name":"San Marino","deaths":20,"newDeaths":0,"cases":151,"newCases":0,"lat":43.77,"lng":12.42}
+{"_type":"country","_id":"12545","name":"Saudi Arabia","deaths":0,"newDeaths":0,"cases":511,"newCases":119,"lat":25,"lng":45}
+{"_type":"country","_id":"114-14","name":"Senegal","deaths":0,"newDeaths":0,"cases":67,"newCases":11,"lat":14,"lng":-14}
+{"_type":"country","_id":"14421","name":"Serbia","deaths":1,"newDeaths":0,"cases":188,"newCases":39,"lat":44,"lng":21}
+{"_type":"country","_id":"11104","name":"Singapore","deaths":2,"newDeaths":0,"cases":455,"newCases":23,"lat":1.37,"lng":103.8}
+{"_type":"country","_id":"14920","name":"Slovakia","deaths":0,"newDeaths":0,"cases":185,"newCases":7,"lat":48.67,"lng":19.5}
+{"_type":"country","_id":"14615","name":"Slovenia","deaths":1,"newDeaths":0,"cases":414,"newCases":31,"lat":46,"lng":15}
+{"_type":"country","_id":"1-2924","name":"South Africa","deaths":0,"newDeaths":0,"cases":274,"newCases":34,"lat":-29,"lng":24}
+{"_type":"country","_id":"137128","name":"South Korea","deaths":113,"newDeaths":9,"cases":8961,"newCases":64,"lat":37,"lng":127.5}
+{"_type":"country","_id":"140-4","name":"Spain","deaths":1720,"newDeaths":394,"cases":28572,"newCases":3646,"lat":40,"lng":-4}
+{"_type":"country","_id":"1781","name":"Sri Lanka","deaths":0,"newDeaths":0,"cases":87,"newCases":9,"lat":7,"lng":81}
+{"_type":"country","_id":"16215","name":"Sweden","deaths":21,"newDeaths":1,"cases":1906,"newCases":160,"lat":62,"lng":15}
+{"_type":"country","_id":"1478","name":"Switzerland","deaths":60,"newDeaths":4,"cases":6971,"newCases":894,"lat":47,"lng":8}
+{"_type":"country","_id":"124121","name":"Taiwan","deaths":2,"newDeaths":0,"cases":165,"newCases":12,"lat":23.5,"lng":121}
+{"_type":"country","_id":"115100","name":"Thailand","deaths":1,"newDeaths":0,"cases":721,"newCases":122,"lat":15,"lng":100}
+{"_type":"country","_id":"111-61","name":"Trinidad and_Tobago","deaths":0,"newDeaths":0,"cases":50,"newCases":1,"lat":11,"lng":-61}
+{"_type":"country","_id":"1349","name":"Tunisia","deaths":3,"newDeaths":2,"cases":75,"newCases":15,"lat":34,"lng":9}
+{"_type":"country","_id":"13935","name":"Turkey","deaths":30,"newDeaths":9,"cases":1236,"newCases":289,"lat":39,"lng":35}
+{"_type":"country","_id":"14932","name":"Ukraine","deaths":3,"newDeaths":0,"cases":47,"newCases":6,"lat":49,"lng":32}
+{"_type":"country","_id":"12454","name":"United Arab_Emirates","deaths":2,"newDeaths":0,"cases":153,"newCases":0,"lat":24,"lng":54}
+{"_type":"country","_id":"154-2","name":"United Kingdom","deaths":281,"newDeaths":48,"cases":5683,"newCases":665,"lat":54,"lng":-2}
+{"_type":"country","_id":"138-97","name":"United States_of_America","deaths":471,"newDeaths":131,"cases":35206,"newCases":8459,"lat":38,"lng":-97}
+{"_type":"country","_id":"1-33-56","name":"Uruguay","deaths":0,"newDeaths":0,"cases":158,"newCases":23,"lat":-33,"lng":-56}
+{"_type":"country","_id":"14164","name":"Uzbekistan","deaths":0,"newDeaths":0,"cases":46,"newCases":13,"lat":41,"lng":64}
 {"_type":"country","_id":"18-66","name":"Venezuela","deaths":0,"newDeaths":0,"cases":36,"newCases":0,"lat":8,"lng":-66}
-{"_type":"country","_id":"116106","name":"Vietnam","deaths":0,"newDeaths":0,"cases":94,"newCases":7,"lat":16,"lng":106}
+{"_type":"country","_id":"116106","name":"Vietnam","deaths":0,"newDeaths":0,"cases":118,"newCases":24,"lat":16,"lng":106}
