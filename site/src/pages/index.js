@@ -51,6 +51,8 @@ const Marker = ({ country }) => {
 
 const IndexPage = () => {
   const [countries, setCountries] = useState(null)
+  const [total, setTotal] = useState(null)
+  const [newCases, setNewCases] = useState(null)
   useEffect(() => {
     const query = `*[_type == 'country'] | order(cases desc)`
     client.fetch(query).then(x => setCountries(x))
@@ -241,11 +243,26 @@ const IndexPage = () => {
       ],
     }
   }
+  useEffect(() => {
+    countries && console.log(countries)
+    if (countries) {
+      const total = countries.map(x => x.cases).reduce((a, b) => a + b, 0)
+      const newCases = countries.map(x => x.newCases).reduce((a, b) => a + b, 0)
+      setTotal(total)
+      setNewCases(newCases)
+    }
+  }, [countries])
 
   return (
     <Layout>
       <SEO title="Covid 19 Tracker" />
       <div style={{ width: "100%", height: "100vh", fontDisplay: "swap" }}>
+        {countries && (
+          <div>
+            <h4>{formatMoney(total)} cases worldwide</h4>
+            <h4 sx={{ color: "primary" }}>{formatMoney(newCases)} new cases</h4>
+          </div>
+        )}
         <GoogleMapReact
           bootstrapURLKeys={{ key: "AIzaSyBO8H3ggKEXrZwUW9Hz7apfoiceAgAjIjE" }}
           defaultCenter={{ lat: 49.8175, lng: 15.473 }}
