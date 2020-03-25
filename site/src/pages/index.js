@@ -53,6 +53,8 @@ const IndexPage = () => {
   const [countries, setCountries] = useState(null)
   const [total, setTotal] = useState(null)
   const [newCases, setNewCases] = useState(null)
+  const [newDeaths, setNewDeaths] = useState(null)
+  const [deaths, setDeaths] = useState(null)
   useEffect(() => {
     const query = `*[_type == 'country'] | order(cases desc)`
     client.fetch(query).then(x => setCountries(x))
@@ -248,8 +250,14 @@ const IndexPage = () => {
     if (countries) {
       const total = countries.map(x => x.cases).reduce((a, b) => a + b, 0)
       const newCases = countries.map(x => x.newCases).reduce((a, b) => a + b, 0)
+      const deaths = countries.map(x => x.deaths).reduce((a, b) => a + b, 0)
+      const newDeaths = countries
+        .map(x => x.newDeaths)
+        .reduce((a, b) => a + b, 0)
       setTotal(total)
       setNewCases(newCases)
+      setDeaths(deaths)
+      setNewDeaths(newDeaths)
     }
   }, [countries])
 
@@ -258,9 +266,19 @@ const IndexPage = () => {
       <SEO title="Covid 19 Tracker" />
       <div style={{ width: "100%", height: "100vh", fontDisplay: "swap" }}>
         {countries && (
-          <div>
-            <h4>{formatMoney(total)} cases worldwide</h4>
-            <h4 sx={{ color: "primary" }}>{formatMoney(newCases)} new cases</h4>
+          <div
+            sx={{
+              display: "grid",
+              gridTemplateColumns: "30% 20% 30% 20%",
+              alignItems: "center",
+              justifyItems: "center",
+            }}
+          >
+            <h4>{formatMoney(total)} cases</h4>
+
+            <h4 sx={{ color: "primary" }}>{formatMoney(newCases)} new</h4>
+            <h4 sx={{ color: "" }}>{formatMoney(deaths)} deaths</h4>
+            <h4 sx={{ color: "primary" }}>{formatMoney(newDeaths) || 0} new</h4>
           </div>
         )}
         <GoogleMapReact
