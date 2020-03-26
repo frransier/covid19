@@ -54,7 +54,7 @@ const Header = ({ siteTitle }) => {
           Source: ECDC geographic distribution of COVID-19 cases worldwide
         </a>
       </h5>
-      <h6>Updated 2020-03-25 3PM CET</h6>
+      <h6>Updated 2020-03-26 3PM CET</h6>
     </div>
   )
 }
