@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = JSON.parse(fs.readFileSync("covidtracker0326.json"));
+const data = JSON.parse(fs.readFileSync("covidtracker0327.json"));
 const iso = JSON.parse(fs.readFileSync("iso.json"));
 const _ = require("lodash");
 
@@ -7,23 +7,23 @@ const test = data
   .map(x => {
     const grouped = data
       .map(y => {
-        if (y.GeoId === x.GeoId) return y;
+        if (y.geoId === x.geoId) return y;
       })
       .filter(Boolean);
     // console.log(grouped[0].Deaths);
     // const cnt = grouped[0];
-    const deaths = grouped.map(x => x.Deaths).reduce((a, b) => a + b, 0);
-    const cases = grouped.map(x => x.Cases).reduce((a, b) => a + b, 0);
-    const name = grouped[0]["Countries and territories"].replace("_", " ");
-    const geo = iso.find(x => x.ISO === grouped[0].GeoId);
+    const deaths = grouped.map(x => x.deaths).reduce((a, b) => a + b, 0);
+    const cases = grouped.map(x => x.cases).reduce((a, b) => a + b, 0);
+    const name = grouped[0]["countriesAndTerritories"].replace("_", " ");
+    const geo = iso.find(x => x.ISO === grouped[0].geoId);
     const country = {
       _type: "country",
       _id: geo && `1${Math.round(geo.Latitude)}${Math.round(geo.Longitude)}`,
       name: name,
       deaths: deaths,
-      newDeaths: deaths - (deaths - grouped[0].Deaths),
+      newDeaths: deaths - (deaths - grouped[0].deaths),
       cases: cases,
-      newCases: cases - (cases - grouped[0].Cases),
+      newCases: cases - (cases - grouped[0].cases),
       lat: geo && geo.Latitude,
       lng: geo && geo.Longitude,
     };
