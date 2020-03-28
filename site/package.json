@@ -8,7 +8,6 @@
     "@sanity/client": "^1.149.2",
     "@tippyjs/react": "^4.0.0-alpha.4",
     "add": "^2.0.6",
-    "canvasjs": "^1.8.3",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-google-analytics": "^2.2.0",
