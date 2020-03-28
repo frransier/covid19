@@ -15,10 +15,10 @@ const Chart = () => {
     theme: "light2",
     logarithmBase: 4,
     title: {
-      text: "Dag 1 = 5 dödsfall",
+      text: "Day 1 = 5 deaths",
     },
     axisY: {
-      title: "Dödsfall",
+      title: "Deaths",
       logarithmic: true,
       includeZero: false,
     },
@@ -26,7 +26,7 @@ const Chart = () => {
       crosshair: {
         enabled: true,
         labelFormatter: e => {
-          return "Dagar sedan 5 dödsfall"
+          return "Days since 5 deaths"
         },
       },
       gridThickness: 0,
@@ -37,13 +37,13 @@ const Chart = () => {
     data: [
       {
         type: "spline",
-        name: "Sverige",
+        name: "Sweden",
         showInLegend: true,
         dataPoints: data.data.find(x => x.country === "Sweden").data,
       },
       {
         type: "spline",
-        name: "Danmark",
+        name: "Denmark",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "Denmark")
@@ -51,7 +51,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Norge",
+        name: "Norway",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "Norway")
@@ -59,7 +59,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Spanien",
+        name: "Spain",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "Spain")
@@ -67,7 +67,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Tyskland",
+        name: "Germany",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "Germany")
@@ -75,7 +75,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Holland",
+        name: "Netherlands",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "Netherlands")
@@ -83,7 +83,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Belgien",
+        name: "Belgium",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "Belgium")
@@ -91,7 +91,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Italien",
+        name: "Italy",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "Italy")
@@ -99,7 +99,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Storbritannien",
+        name: "United Kingdom",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "United_Kingdom")
@@ -107,7 +107,7 @@ const Chart = () => {
       },
       {
         type: "spline",
-        name: "Frankrike",
+        name: "France",
         showInLegend: true,
         dataPoints: data.data
           .find(x => x.country === "France")
