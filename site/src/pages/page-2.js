@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 import data from "../data/data"
 
 const SecondPage = () => {
-  var CanvasJS = CanvasJSReact.CanvasJS
-  var CanvasJSChart = CanvasJSReact.CanvasJSChart
+  var CanvasJS = window && CanvasJSReact.CanvasJS
+  var CanvasJSChart = window && CanvasJSReact.CanvasJSChart
   console.log(data)
 
   const options = {
