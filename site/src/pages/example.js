@@ -7,13 +7,14 @@ const ClientSideOnlyLazy = React.lazy(() => import("../data/chart"))
 const ExamplePage = () => {
   const isSSR = typeof window === "undefined"
   return (
-    <>
+    <Layout>
+      <SEO title="COVID-19 Europe" />
       {!isSSR && (
         <React.Suspense fallback={<div />}>
           <ClientSideOnlyLazy />
         </React.Suspense>
       )}
-    </>
+    </Layout>
   )
 }
 

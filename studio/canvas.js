@@ -21,13 +21,13 @@ const test = data
 
       const spine = country
         .map((x, i) => {
-          const arr = country.slice(i).map(x => x.deaths);
+          const arr = country.slice(i).map(x => x.cases);
 
           const point = {
             y: arr.reduce((a, b) => a + b, 0) / country[0].popData2018,
             label: i + 1,
           };
-          if (point.y * country[0].popData2018 > 4) return point;
+          if (point.y * country[0].popData2018 > 100) return point;
         })
         .filter(Boolean);
 
