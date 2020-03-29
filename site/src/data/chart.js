@@ -14,7 +14,7 @@ const Chart = () => {
     theme: "light2",
     logarithmBase: 4,
     title: {
-      text: "Day 1 = 5 deaths",
+      text: "Day 1 = 10 deaths",
     },
     axisY: {
       title: "Deaths",
@@ -25,7 +25,7 @@ const Chart = () => {
       crosshair: {
         enabled: true,
         labelFormatter: e => {
-          return "Days since 5 deaths"
+          return "Days since 10 deaths"
         },
       },
       gridThickness: 0,
@@ -119,7 +119,7 @@ const Chart = () => {
     theme: "light2",
     logarithmBase: 4,
     title: {
-      text: "Day 1 = 5 deaths",
+      text: "Day 1 = 10 deaths",
     },
     axisY: {
       title: "Deaths per capita",
@@ -130,7 +130,7 @@ const Chart = () => {
       crosshair: {
         enabled: true,
         labelFormatter: e => {
-          return "Days since 5 deaths"
+          return "Days since 10 deaths"
         },
       },
       gridThickness: 0,
@@ -222,7 +222,7 @@ const Chart = () => {
   const options3 = {
     animationEnabled: true,
     theme: "light2",
-    logarithmBase: 4,
+    logarithmBase: 3,
     title: {
       text: "Day 1 = 100 cases",
     },
@@ -327,7 +327,7 @@ const Chart = () => {
   const options4 = {
     animationEnabled: true,
     theme: "light2",
-    logarithmBase: 4,
+    logarithmBase: 2,
     title: {
       text: "Day 1 = 100 cases",
     },

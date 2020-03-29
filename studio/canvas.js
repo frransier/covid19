@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = JSON.parse(fs.readFileSync("covidtracker0328.json"));
+const data = JSON.parse(fs.readFileSync("covidtracker0329.json"));
 const iso = JSON.parse(fs.readFileSync("iso.json"));
 const _ = require("lodash");
 
@@ -24,10 +24,11 @@ const test = data
           const arr = country.slice(i).map(x => x.cases);
 
           const point = {
-            y: arr.reduce((a, b) => a + b, 0) / country[0].popData2018,
+            // y: arr.reduce((a, b) => a + b, 0) / country[0].popData2018,
+            y: arr.reduce((a, b) => a + b, 0),
             label: i + 1,
           };
-          if (point.y * country[0].popData2018 > 100) return point;
+          if (point.y > 100) return point;
         })
         .filter(Boolean);
 
