@@ -1,17 +1,19 @@
 import React from "react"
-import Loadable from "react-loadable"
 import { Link } from "gatsby"
-import Chart from "../data/chart"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const ClientSideOnlyLazy = React.lazy(() => import("../data/chart"))
 const ExamplePage = () => {
+  const isSSR = typeof window === "undefined"
   return (
-    <Layout>
-      <SEO title="Page two" />
-
-      <Chart />
-    </Layout>
+    <>
+      {!isSSR && (
+        <React.Suspense fallback={<div />}>
+          <ClientSideOnlyLazy />
+        </React.Suspense>
+      )}
+    </>
   )
 }
 

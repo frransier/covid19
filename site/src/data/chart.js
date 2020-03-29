@@ -1,11 +1,11 @@
-import React from "react"
+import React, { useRef, useEffect } from "react"
 import { Link } from "gatsby"
 import CanvasJSReact from "../data/canvasjs.react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import data from "./data"
 
-var CanvasJS = CanvasJSReact.CanvasJS
+// var CanvasJS = CanvasJSReact.CanvasJS
 var CanvasJSChart = CanvasJSReact.CanvasJSChart
 
 const Chart = () => {
@@ -115,11 +115,7 @@ const Chart = () => {
     ],
   }
 
-  return typeof window !== `undefined` ? (
-    <CanvasJSChart options={options} />
-  ) : (
-    <div>hej</div>
-  )
+  return <CanvasJSChart options={options} />
 }
 
 export default Chart
